@@ -1,0 +1,12 @@
+
+.body{ 
+    background-color: bisque;
+    text-align: center;
+
+
+}
+
+.h1 > Banner{
+    background-image: url(night.jpg);
+    text-align: center;
+}
