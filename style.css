@@ -56,6 +56,7 @@ a:link {
     display: flex;
     flex-wrap: nowrap;
     background-color: DodgerBlue;
+    text-align: center;
   }
   
   .flex-container > div {
