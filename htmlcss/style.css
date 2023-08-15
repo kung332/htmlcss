@@ -1,0 +1,82 @@
+
+.body{ 
+    margin: 0;
+    background-color: black;
+    text-align: center;
+
+}
+
+.Banner{
+    aspect-ratio: auto 562 / 190;
+    height: 100% 100vh;
+    width: auto 100vw;
+    text-align: center;
+    background-image: url("night.jpg"); 
+    background-color: #cccccc;
+    color: rgb(255, 255, 255);
+    
+
+}
+
+h1{
+
+  font-size: 120px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    box-shadow: 10px 10px 8px #000000 ;
+    font-size: 120px;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 120px;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 120px;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 120px;
+  }
+
+
+.flexbox{
+
+  justify-content:space-between;
+
+  
+  display: flex;
+  flex-direction: row;
+
+}
+.column{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.columno{
+
+ 
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+ 
+  
+  
