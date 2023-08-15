@@ -52,19 +52,31 @@ a:link {
     font-size: 120px;
   }
 
-  .flex-container {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: rgb(0, 11, 22);
-    text-align: center;
-  }
+
+.flexbox{
+
+  justify-content:space-between;
+
   
-  .flex-container > div {
-    flex-direction: row-reverse;
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
+  display: flex;
+  flex-direction: row;
+
+}
+.column{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.columno{
+
+ 
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+ 
+  
+  
